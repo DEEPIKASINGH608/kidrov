@@ -46,7 +46,7 @@ const RegistrationForm = () => {
       const data = await response.json();
 
       if (response.ok) {
-        setStatusMsg({ type: 'success', text: '🎯 Application Sent Successfully! We will contact you shortly.' });
+        setStatusMsg({ type: 'success', text: ' Application Sent Successfully! We will contact you shortly.' });
         setFormData({ name: '', email: '', phone: '' });
       } else {
         setStatusMsg({ type: 'error', text: data.message || 'Submission failed. Please check inputs.' });

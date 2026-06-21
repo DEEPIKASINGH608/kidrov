@@ -3,7 +3,6 @@ import React from 'react';
 const Hero = ({ onEnrollClick }) => {
   return (
     <section className="relative overflow-hidden py-20 px-6 max-w-7xl mx-auto flex flex-col items-center text-center">
-      {/* Decorative background shapes */}
       <div className="absolute top-10 left-10 w-24 h-24 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-pulse"></div>
       <div className="absolute bottom-10 right-10 w-32 h-32 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-40 animate-pulse delay-700"></div>
 
@@ -24,7 +23,7 @@ const Hero = ({ onEnrollClick }) => {
           onClick={onEnrollClick}
           className="w-full sm:w-auto bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-extrabold text-lg px-8 py-4 rounded-2xl transition-all duration-300 transform hover:-translate-y-1 shadow-xl hover:shadow-orange-200"
         >
-          Enroll Now ⚡
+          Enroll Now 
         </button>
         <div className="flex items-center gap-2 text-sm text-gray-500 font-medium">
           <span className="flex h-3 w-3 relative">
